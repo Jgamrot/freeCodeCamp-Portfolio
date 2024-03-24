@@ -1,36 +1,82 @@
 <!DOCTYPE html>
-<hmtl lang="en">
-  <head>
-<meta charset="UTF-8"/>
-<link rel="stylesheet" href="styles.css">
-<title>My Portfolio Site
-  </title>
-  <navbar id="navbar">
-    <a href="#welcome-section">Welcome</a>
-    <a href="#project-tile">Projects</a>
-    <a id="profile-link" target="_blank"href="https://www.freecodecamp.org/fccb3d624e3-7059-41b2-ab5c-378f7d681008">Profile</a>
-  </navbar>
-  </head>
-  <body>
-    <header>My Portfolio Site</header>
-<main>
-  <section class="welcome=section" id="welcome-section">
-    <h1>Welcome Section
-      </h1>
-      <p>This is the size of the viewport</p>
-    </section>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Portfolio Site</title>
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#welcome-section" class="nav-link">Welcome</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a id="FCCprofile-link" target="_blank" href="https://www.freecodecamp.org/fccb3d624e3-7059-41b2-ab5c-378f7d681008" class="nav-link">freeCodeCamp.org Profile</a>
+      <a id="GitHubprofile-link" target="_blank" href="https://github.com/Jgamrot" class="nav-link">GitHub Profile</a>
 
-<section class="project-tile" id="projects">
-    <div class="project-tile" id="projects">Projects go here
+    </div>
+  </nav>
+
+  <header id="welcome-section">
+    <div class="header-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Explore my projects and experience</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="projects">
+        <div class="project-tile">
+            <a href="https://jgamrot.github.io/odin-recipes/" target="_blank">
+              <img src="https://cdn.pixabay.com/photo/2015/08/25/03/50/herbs-906140_1280.jpg" 
+              alt="Recipe Image">
+              <div class="project-info">
+                <h3>Recipe Project</h3>
+                <p>Recipe Project from The Odin Project</p>
+                <span class="project-link">View Project</span>
+    
+              </div>
+            </a>
+          </div>
+      <!-- Add more project tiles here -->
+      <div class="project-tile">
+        <a href="https://jgamrot.github.io/freeCodeCamp-SurveyForm/" target="_blank">
+          <img src="https://cdn.pixabay.com/photo/2016/08/15/10/17/survey-1594962_1280.jpg" 
+          alt="Survey Image">
+          <div class="project-info">
+            <h3>Survey Form Project</h3>
+            <p>Survey Form Project from freeCodeCamp.org</p>
+            <span class="project-link">View Project</span>
+
+          </div>
+        </a>
       </div>
-      <a href="https://personal-portfolio.freecodecamp.rocks/">
-      <img src="https://www.projectsmart.co.uk/img/project.png"/> </a>
+      <div class="project-tile">
+        <a href="https://jgamrot.github.io/freeCodeCamp-ProductLandingPage/" target="_blank">
+          <img src="https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_1280.jpg" 
+          alt="Product Image">
+          <div class="project-info">
+            <h3>Product Landing Page</h3>
+            <p>Product Landing Page Project from freeCodeCamp.org</p>
+            <span class="project-link">View Project</span>
+
+          </div>
+        </a>
+      </div>
     </section>
-
   </main>
-    <footer>
 
-      </footer>
-          </body>
-
-      </html>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2023 My Portfolio Site</p>
+      <div class="social-links">
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
